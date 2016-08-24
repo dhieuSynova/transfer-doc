@@ -1,6 +1,9 @@
 #E-types Backend Transfer Document
 
 ##1. Setup source code folder:
+1. Folder Structure
+2. .htaccess file:
+3. .gitignore: 
 ```
 // Current folder: /srv/site/etypes/project-name
 // ls -fla
@@ -128,3 +131,8 @@ echo wp_send_json_success($result);
 
 ?>
 ```
+
+##4. Social network api
+- Linkedin
+- Instagram
+- Facebook
