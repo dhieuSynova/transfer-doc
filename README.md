@@ -1,4 +1,4 @@
-#E-types Backend Transfer Document
+#E-types Backend Transfer Document - Hoi Pham
 
 ##1. Setup source code folder:
 1. Folder Structure
