@@ -136,3 +136,6 @@ echo wp_send_json_success($result);
 - Linkedin (https://developer.linkedin.com/docs/rest-api)
 - Instagram (https://www.instagram.com/developer/)
 - Facebook (https://developers.facebook.com/docs/)
+
+
+#### Link to this file: https://github.com/dev01synova/transfer-doc/blob/master/README.md
