@@ -1,7 +1,7 @@
 #E-types Backend Transfer Document - Hoi Pham
 
 ##1. Setup source code folder:
-1. Folder Structure:
+1) Folder Structure:
 ```
 // Current folder: /srv/site/etypes/project-name
 // ls -fla
@@ -9,7 +9,7 @@ apache/{Apache setting}
 src/{Source code}
 ```
 
-2. .htaccess file:
+2) htaccess file:
 ```
 Header set Access-Control-Allow-Origin "*"
 <IfModule mod_rewrite.c>
@@ -26,7 +26,7 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
 </IfModule>
 ```
-3. .gitignore: 
+3) .gitignore: 
 ```
 wp-config.php
 /src/wp-content/uploads
