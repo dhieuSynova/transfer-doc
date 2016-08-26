@@ -22,7 +22,8 @@ src/{Source code}
 1. Setup page template
 2. Override index.php in wordpress root folder
 
-```<?php
+```
+<?php
 /**
  * Front to the WordPress application. This file doesn't do anything, but loads
  * wp-blog-header.php which does and tells WordPress to load the theme.
@@ -44,12 +45,10 @@ require( dirname( __FILE__ ) . '/wp-blog-header.php' );
 ```
 
 3. Sample Template file:
+
 ```
 <?php
-
 // Template Name: Frontpage
-
-
 $post_id = $post->ID;
 
 
@@ -57,11 +56,6 @@ $data = array();
 $listPost1st = get_field('list_post_1st');
 $listPost2nd = get_field('list_post_2nd');
 $tilangVideo = get_field('tilang_video');
-
-
-
-
-
 function getListPost($postArray)
 {
     foreach ($postArray as $value) {
@@ -128,7 +122,6 @@ $result = $data;
 
 array_walk_recursive($result, 'replacer');
 echo wp_send_json_success($result);
-
 ?>
 ```
 
